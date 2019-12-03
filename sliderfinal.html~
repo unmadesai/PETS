@@ -1,0 +1,391 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>PETS</title>
+<link rel="stylesheet" type="text/css" href="css/pets.css">
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+		</script>
+		<script src="js/gistfile1.js">$('marquee').marquee(optionalClass);</script>
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+		<script src="js/gistfile1.js">$('marquee').marquee(optionalClass);</script>
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		
+			$(function() {
+
+				var $c = $('#carousel'),
+					$w = $(window);
+
+				$c.carouFredSel({
+					align: false,
+					items: 10,
+					scroll: {
+						items: 1,
+						duration: 3000,
+						timeoutDuration: 0,
+						easing: 'linear',
+						pauseOnHover: 'immediate'
+					}
+				});
+
+				
+				$w.bind('resize.example', function() {
+					var nw = $w.width();
+					if (nw < 990) {
+						nw = 990;
+					}
+
+					$c.width(nw * 3);
+					$c.parent().width(nw);
+
+				}).trigger('resize.example');
+
+			});
+		</script>
+		<style type="text/css">
+			
+			body {
+				background-color: black;
+				
+			}
+			body * {
+				font-family: Verdana;
+				font-size: 14px;
+				color: black;
+				line-height: 22px;
+			}
+			.pslide
+			{
+				color: white;
+				font-family: Courier;
+				font-size: 15px;
+				font-style: bold;
+				padding-top: 20px;
+				padding-left: 30px;
+				padding-right: 30px;
+				text-align: center;
+			}
+
+			.image
+			{
+				height: 100px;
+				width: 100px;
+				border-radius: 50px;
+			}
+			.profile
+			{
+   				 height: 300px;
+   				 width: 300px;
+   				 background-color: #d3d3d3;
+   				 border: 2px solid black;
+   				 margin-top: 150px;
+   				 margin-left: 20px;
+			}
+			/*#wrapper {
+				background-color: yellow;
+				width: 100%;
+				height: 40%;
+				margin-top: 200px;
+				position: absolute;
+				left: 0;
+			}*/
+			#carousel {
+				margin-top: 0px;
+				z-index: -99;
+			}
+			#carousel div {
+				text-align: center;
+				width: 300px;
+				height: 300px;
+				float: left;
+				position: relative;
+				z-index: -99;
+			}
+			
+			.contain
+			{
+				z-index: 100;
+			}
+			
+		</style>
+		
+		
+</head>
+<body>
+	<div="resp">
+		<ul class="ulclass">
+		<li class="liclass"><h1 class="h1class">PETS </h1></li>
+			<li class="dropdown"><a class="dropbtn" href="home.html">Home</a></li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">About Us</a>
+			<div class="dropdown-content">
+				<a href="aboutus.html">Who we are</a>
+				<a href="gallerynew.html">Gallery</a>
+				<a href="achievement.html">Achievements</a>
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Events</a>
+			<div class="dropdown-content">
+			<a href="volunteer.html">Volunteer with us</a>
+			<a href="eventsnew.html">Upcoming Events</a>
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Adoption</a>
+			<div class="dropdown-content">
+			<a href="sliderfinal.html">Adopt a dog</a>
+			<a href="whyadopt.html">Why Adopt</a>
+			<a href="#">Submit Profile</a>
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Animal Welfare</a>
+			<div class="dropdown-content">
+			<a href="alaws.html">Laws in India</a>
+			<a href="report.html">Report animal abuse</a>
+			<a href="#">Sign petition</a>
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Join Us</a>
+			<div class="dropdown-content">
+			<a href="donate.html">Donate</a>
+			<a href="#">Our Team</a>
+			<a href="subscribe.html">Subscribe</a>
+			</div>
+			</li>
+			</ul>
+			</div>
+			
+			<div id="wrapper"> 
+				<p class="pslide"> We are glad you are considering the oppurtunity to adopt a stray dog. To adopt any of the dogs shown below, please visit our head quarters or contact us on #9876543210. Thank you for giving a mute, helpless animal a home!</p>
+			<div id="carousel">
+				
+				<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p1.jpg" alt="">
+								<h2>HARRY</h2>
+								<p>AGE : 7 months</p>
+								<p>BREED : Pug</p>
+								<p>GENDER : Female</p>								
+								<p>Friendly, playful, naughty, trusting</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				
+			<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p2.jpg" alt="">
+								<h2>DAISY</h2>
+								<p>AGE : 4 months</p>
+								<p>BREED : Indian Stray</p>
+								<p>GENDER : Female</p>								
+								<p>Mischievous, scrawny, shy, loves cuddles</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p3.jpg" alt="">
+								<h2>HEDWIG</h2>
+								<p>AGE : 4 months</p>
+								<p>BREED : Labrador</p>
+								<p>GENDER : Female</p>
+								<p>Friendly, playful, trusting</p>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p4.jpg" alt="">
+								<h2>FLUFFY</h2>
+								<p>AGE : 4 months</p>
+								<p>BREED : Labrador</p>	
+								<p>GENDER : Male</p>
+								<p>Friendly, naughty, obedient</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p5.jpg" alt="">
+								<h2>MARCEL</h2>
+								<p>AGE : 4 years</p>
+								<p>BREED : Indian Stray</p>
+								<p>GENDER : Male</p>								
+								<p>Friendly, playful, trusting</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p6.jpg" alt="">
+								<h2>PIXIE</h2>
+								<p>AGE : 4 years</p>
+								<p>BREED : Indian Stray</p>
+								<p>GENDER : Female</p>								
+								<p>Friendly, playful, trusting</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p7.jpg" alt="">
+								<h2>BUTTERCUP</h2>
+								<p>AGE : 2 years</p>
+								<p>BREED : Indian Stray</p>
+								<p>GENDER : Female</p>
+								<p>Friendly, protective, obedient</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p8.jpg" alt="">
+								<h2>MAX</h2>
+								<p>AGE : 4 years</p>
+								<p>BREED : Indian Stray</p>
+								<p>GENDER : Female</p>								
+								<p>Friendly, playful, trusting</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p9.jpg" alt="">
+								<h2>BAILEY</h2>
+								<p>AGE : 4 years</p>
+								<p>BREED : Indian Stray</p>
+								<p>GENDER : Female</p>								
+								<p>Friendly, playful, trusting</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p10.jpg" alt="">
+								<h2>CHARLIE</h2>
+								<p>AGE : 4 years</p>
+								<p>BREED : Indian Stray</p>
+								<p>GENDER : Male</p>								
+								<p>Friendly, playful, trusting</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="profile">
+					<div class="wrap">
+						<div class="profile-main">
+							<div class="profile-pic wthree">
+								<img class="image" src="pimages/p11.jpg" alt="">
+								<h2>BUDDY</h2>
+								<p>AGE : 8 years</p>
+								<p>BREED : Indian Stray</p>
+								<p>GENDER : Male</p>								
+								<p>Friendly, playful, goofy, loyal</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			<div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="right:0px; top:200px;">
+				<a class="a2a_button_facebook"></a>
+				<a class="a2a_button_twitter"></a>
+				<a class="a2a_button_google_plus"></a>
+				<a class="a2a_button_pinterest"></a>
+				<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+			</div>
+
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+		<br><br><marquee scrollamount="5" behavior="alternate" direction="right" width="100%">
+										<h1><a href="#">Upcoming Events</a></h1></marquee>
+			
+			<!--specials--><br><br><br>
+			<div class="contain">	<h3>timings</h3>
+									<p>10:30 Am - 10:45 Am Activity</p>
+									
+									<p>11:00 Am - 12:00 PM Visit Hour</p>
+									<p>12:00 Pm - 01:00 Pm Feeding</p>
+									<h3> details</h3>
+									<p><a href="about.html">About Us</a></p>
+									<p><a href="#">Privacy Policy</a></p>
+									<p><a href="#">Terms & Conditions</a></p>
+									<p><a href="sitemap.html">SiteMap</a></p>
+									<h3>contact</h3>
+								<address>
+									<p>Glasgow,Le 99 Pr 45.</p>
+									<p>Telephone : +1 800 603 6035</p>
+									<p>FAX : +1 800 889 9898</p>
+									<p>Email : <a href="mailto:example@mail.com">example@mail.com</a></p>
+								</address>
+							<h3>social</h3>
+								
+									<p><a href="#">facebook</a></p>
+									<p><a href="#">twitter</a></p>
+									<p><a href="#">google+</a></p>
+									
+								
+								
+								
+							
+			</div>
+	
+			<div class="footer-section">
+				<div class="container">
+					<div class="footer-top">
+						<p>All Rights reserved.PETS</a></p>
+					</div>
+				</div>
+			</div>
+
+</body>
+</html>

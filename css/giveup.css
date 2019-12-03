@@ -1,0 +1,91 @@
+
+.box{
+
+}
+h2{
+  font-family: 'Julius Sans One';
+  text-align: center;
+  font-size: 30px;
+  color: #002233;
+}
+
+.form {
+  height: 18.75em;
+  width: 25em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+  font-family: 'Satisfy';
+  
+}
+
+.form > div {
+  height: 6.25em;
+  width: 100%;
+}
+
+.username {
+  background-color: #ff5b81;
+    font-family: 'Satisfy';
+
+}
+
+.placeholder
+{
+	font-family: 'Julius Sans One';
+}
+
+.name {
+  background-color: #faf3dd;
+    font-family: 'Julius Sans One';
+
+}
+
+
+
+.password {
+  background-color: #5e6472;
+    font-family: 'Julius Sans One';
+
+}
+
+
+.description {
+  background-color: #faf3dd;
+    font-family: 'Julius Sans One';
+
+}
+
+
+
+.login {
+  background-color: #ff5b81;
+  display: table;
+}
+
+.login span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size:3em;
+  cursor: pointer;
+}
+
+input {
+  height: 1.25em;
+  width: 8.125em;
+  font-size: 1.8em;
+  text-align:center;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  background: transparent;
+  border:0.033em #fff solid;
+  margin-left: 2.1875em;
+  margin-top: 1em;
+  font-family: "Bebas Neue", Arial;
+}
+
+   

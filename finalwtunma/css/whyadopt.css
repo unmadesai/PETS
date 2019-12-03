@@ -1,0 +1,29 @@
+.w3-center{text-align:center!important}
+.w3-content{max-width:980px;margin:auto}
+.w3-section{margin-top:16px!important;margin-bottom:16px!important}
+.w3-btn-floating{width:40px;height:40px;line-height:40px}
+.adopttext
+{
+	font-family: 'Handlee';
+	color: #002233;
+	text-align: center;
+	font-size: 22px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.h4adopt
+{
+	font-size: 30px;
+	color: #ff5b81;
+	font-family: 'Satisfy';
+		text-align: center;
+
+}
+.h1adopt
+{
+	font-family: 'Julius Sans One';
+	font-size: 30px;
+	color: #faf3dd;
+	text-align: center;
+
+}

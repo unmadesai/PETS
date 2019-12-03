@@ -1,0 +1,47 @@
+.w3-center{text-align:center!important}
+.w3-content{max-width:1200px;margin:auto}
+.w3-section{margin-top:16px!important;margin-bottom:16px!important}
+.w3-btn-floating{width:40px;height:40px;line-height:40px}
+.hometext
+{
+	font-family: 'Julius Sans One';
+	color: #002233;
+	font-style: bold;
+	text-align: center;
+	font-size: 35px;
+	margin-top: -10px;
+}
+
+.h1home
+{
+	font-family: 'Bad Script';
+	font-size: 30px;
+	color: #c5283d;
+	text-align: center;
+
+}
+
+.home
+{
+	background-color: #a6b1e1;
+}
+
+.abouthead
+{
+	font-family: 'Julius Sans One';
+	text-align: center;
+	color: #faf3dd;
+	font-weight: 5px;
+	font-size: 40px;
+
+}
+
+.abouttext
+{
+	font-family: 'Satisfy';
+	text-align: center;
+	color: #002233;
+	font-size: 25px;
+}
+
+

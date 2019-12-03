@@ -1,0 +1,129 @@
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+h2
+{
+  
+
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+}
+.events h2{
+  font-family: 'Julius Sans One';
+  font-size: 30px;
+  color: #002233;
+  margin-top: -20px;
+    text-align: center;
+}
+.top-event
+{
+  color: white;
+}
+.events{
+  padding: 5em 0;
+}
+
+.top-event h4{
+  color:#002233;
+  font-size:2em;
+  font-family: 'Pacifico';
+  margin: 0.5em 0;
+}
+
+.top-event p{
+  font-size: 1.5em;
+    color: #5e6472;
+
+    line-height: 1.8em;
+    margin: 10px;
+    font-family: 'Satisfy';
+    padding: 10px;
+}
+.top-event span{
+  font-size: 1.3em;
+     font-family: 'Rancho';
+  color:#faf3dd;
+    line-height: 1.8em;
+    margin: 0.5em 0;
+}
+.events-top {
+  margin-top: 2.5em;
+}
+i.glyphicon.glyphicon-calendar {
+  margin-right: 7px;
+
+}
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-calendar:before {
+  content: "\e109";
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: white;
+  
+}
+.container {
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+   .col-sm-4 {
+    float: left;
+  }
+  .col-sm-4 {
+    width: 33%;
+  }
+ 

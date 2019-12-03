@@ -1,0 +1,225 @@
+
+<html>
+<head>
+<title>PETS</title>
+
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Amatic+SC|Bad+Script|Courgette|Dancing+Script|Dosis|Electrolize|Handlee|Indie+Flower|Josefin+Sans|Julius+Sans+One|Lobster|Lobster+Two|Kaushan+Script|Marmelad|Marvel|Niconne|Open+Sans+Condensed:300|Pacifico|Rancho|Satisfy|Ubuntu|Unica+One" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/pets.css">
+<link rel="stylesheet" type="text/css" href="css/volunteer.css">
+
+<link rel="stylesheet" type="text/css" href="css/home.css">
+
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+function myFunction() {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar")
+
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 4000);
+}
+
+</script>
+<script src="js/gistfile1.js">$('marquee').marquee(optionalClass);</script>	
+
+<script type="text/JavaScript">
+var ck_name = /^[A-Za-z0-9 ]{3,20}$/;
+var ck_username = /^[A-Za-z0-9_]{3,20}$/;
+var ck_password = /^[A-Za-z0-9!@#$%^&*()_]{6,20}$/;
+var ck_phone = /^[0-9 ]{10}$/;
+var ck_email = /^[0-9a-zA-Z]+@[0-9a-zA-z]+[\.]{1}[0-9a-zA]+[\.]?[0-9a-zA-z]+$1/;
+function validateForm()
+{
+    var name = form.fname.value;   
+    var username = form.uname.value;
+    var password = form.pword.value;
+    var phone = form.phone.value;
+	var email=form.email.value;
+    var errors = [];
+    if(!ck_name.test(name))
+    {
+        errors[errors.length] = "Name must be between 3 and 20 characters and should have no special symbols";
+    }
+    if(!ck_email.test(email))
+    {
+        errors[errors.length] = "Enter correct email-id";
+    }
+	if(!ck_username.test(username))
+    {
+        errors[errors.length] = "No special characters except underscore";
+    }
+    if(!ck_password.test(password))
+    {
+        errors[errors.length] = "Password must be between 6 and 20 characters";
+    }
+    if(!ck_phone.test(phone))
+    {
+        errors[errors.length] = "Phone should be 10 digits only";
+    }
+    if(errors.length > 0){
+        reportErrors(errors);
+        return false;
+
+    }
+    return true;
+}
+function reportErrors(errors){
+    var msg= "Please enter valid data\n";
+    for(var i=0;i<errors.length;i++){
+        var numError = i+1;
+        msg += "\n" + numError + "." + errors[i];
+    }
+    alert(msg);
+}
+
+
+</script>
+		<script src="js/gistfile1.js">$('marquee').marquee(optionalClass);</script>
+		
+</head>
+<body>
+	<div="resp">
+		<ul class="ulclass">
+		<li class="liclass"><h1 class="h1class">PETS </h1></li>
+			<li class="dropdown"><a class="dropbtn" href="home.html">Home</a></li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">About Us</a>
+			<div class="dropdown-content">
+				<a href="aboutus.html">Who we are</a>
+				<a href="gallerynew.html">Gallery</a>
+				<a href="achievement.html">Achievements</a>
+				<a href="eventsnew.html">Events</a>
+
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Dog Care</a>
+			<div class="dropdown-content">
+			<a href="basiccare.html">Basic Dog Care</a>
+			<a href="travel.html">Travel With Dogs</a>
+			<a href="adoptpro.html">The Adoption Process</a>
+
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Adoption</a>
+			<div class="dropdown-content">
+			<a href="sliderfinal.html">Adopt a dog</a>
+			<a href="whyadopt.html">Why Adopt</a>
+			<a href="giveup.html">Submit Profile</a>
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Animal Welfare</a>
+			<div class="dropdown-content">
+			<a href="report.html">Report animal abuse</a>
+			<a href="petition.html">Sign petition</a>
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Join Us</a>
+			<div class="dropdown-content">
+			<a href="donate.html">Donate</a>
+			<a href="volunteer.html">Volunteer</a>
+			<a href="subscribe.html">Subscribe</a>
+			</div>
+			</li>
+			</ul>
+			</div>
+	<div class="main"><div class="bat">
+		<!-- login form -->
+		<div class="login-form">  
+			<div class="agile-row">
+				<h2>Volunteer!</h2>   
+				<div class="login-agileits-top"> 
+					<form action="http://localhost/validate.php" method="post"> 
+						<div class="input-row">
+							<input type="text" class="user" name="username" placeholder="User Name" required=""/><br><br> 
+							<input type="text" class="email" name="email" placeholder="Enter Your Email" required=""/><br><br>
+							<input type="cost" class="user" name="phone" placeholder="Contact Number" required=""/>	<br><br>
+							<input type="cost" class="user" name="age" placeholder="Age" required=""/> <br><br>
+							<input type="text" class="user" name="occupation" placeholder="Occupation" required=""/> <br><br>
+							<input type="text" class="user" name="address" placeholder="Address" required=""/> <br><br>
+							
+						</div>
+						<br><br>						
+							
+						<input type="submit" onclick="myFunction()" value="I Am Ready To Volunteer"/>
+					</form>  
+				</div>
+				</div>  
+		</div><br><br></div>
+
+		<!-- Use a button to open the snackbar -->
+
+<!-- The actual snackbar -->
+<div id="snackbar">Hope to see you soon!</div>
+
+			<!--sidebar social icon fixed to the right-->
+			<div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="right:0px; top:300px;">
+				<a class="a2a_button_facebook"></a>
+				<a class="a2a_button_twitter"></a>
+				<a class="a2a_button_google_plus"></a>
+				<a class="a2a_button_pinterest"></a>
+				<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+			</div>
+
+     		
+
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+		<br><br><marquee scrollamount="5" behavior="alternate" direction="right" width="100%">
+										<h1><a href="eventsnew.html" class="eventtext">Upcoming Events : FosterMe on 13th October 2016</a></h1></marquee>
+			
+			<!--specials--><br>
+							<div class="contain">	
+									<h3 id="time">Timings</h3>
+									<p>10:30 Am - 10:45 Am Activity</p>									
+									<p>11:00 Am - 12:00 PM Visit Hour</p>
+									<p>12:00 Pm - 01:00 Pm Feeding</p><br>
+									<h3>Details</h3>
+									<p>About Us</p>
+									<p>Privacy Policy</p>
+									<p>Terms & Conditions</p>
+									
+									<h3>Contact</h3>
+								<address>
+									<p>Andheri (West), Mumbai-400010.</p>
+									<p>Telephone : +022 2945 1286</p>
+									<p>Mobile : +91 9930750162</p>
+									<p>Email : pets@gmail.com</p>
+								</address>
+							<h3>Social</h3>
+								
+									<p>Facebook</p>
+									<p>Twitter</p>
+									<p>Google+</p>
+									
+								
+								
+								
+							
+			</div>
+	
+			<div class="footer-section">
+				<div class="container">
+					<div class="footer-top">
+						<p>All Rights Reserved. PETS</a></p>
+					</div>
+				</div>
+			</div>
+
+</body>
+</html>

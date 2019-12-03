@@ -1,0 +1,157 @@
+
+<html>
+<head>
+<title>PETS</title>
+
+<link rel="stylesheet" type="text/css" href="css/pets.css">
+
+<link rel="stylesheet" type="text/css" href="css/donate.css">
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+		</script>
+		<script src="js/gistfile1.js">$('marquee').marquee(optionalClass);</script>
+		
+</head>
+<body style="background-color:black;">
+	<div="resp">
+		<ul class="ulclass">
+		<li class="liclass"><h1 class="h1class">PETS </h1></li>
+			<li class="dropdown"><a class="dropbtn" href="home.html">Home</a></li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">About Us</a>
+			<div class="dropdown-content">
+				<a href="aboutus.html">Who we are</a>
+				<a href="gallerynew.html">Gallery</a>
+				<a href="achievement.html">Achievements</a>
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Events</a>
+			<div class="dropdown-content">
+			<a href="volunteer.html">Volunteer with us</a>
+			<a href="eventsnew.html">Upcoming Events</a>
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Adoption</a>
+			<div class="dropdown-content">
+			<a href="sliderfinal.html">Adopt a dog</a>
+			<a href="whyadopt.html">Why Adopt</a>
+			<a href="#">Submit Profile</a>
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Animal Welfare</a>
+			<div class="dropdown-content">
+			<a href="alaws.html">Laws in India</a>
+			<a href="report.html">Report animal abuse</a>
+			<a href="#">Sign petition</a>
+			</div>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropbtn">Join Us</a>
+			<div class="dropdown-content">
+			<a href="donate.html">Donate</a>
+			<a href="#">Our Team</a>
+			<a href="subscribe.html">Subscribe</a>
+			</div>
+			</li>
+			</ul>
+			</div>
+						
+ <br><br><br>
+
+<h2 align="center">Donate and save a life</h2><br><br><br>
+<div class="con">
+
+<div class="columns">
+
+  <div class="price">
+    <p class="header12">Standard</p>
+    <p id="list" class="grey">Rs 50 </p>
+    <p id="list"></p>
+    <p id="list"></p>
+    <p id="list"></p>
+    <p id="list"></p><br>
+    <p  align="center" class="grey"><a href="#" class="button">Donate</a></p>
+  </div>
+<br>
+  <div class="price">
+    <p class="header12">Gift</p>
+    <p id="list" class="grey">Rs 100</p>
+    <p id="list"></p>
+    <p id="list"></p>
+    <p id="list"></p>
+    <p id="list"></p><br>
+    <p  align="center" class="grey"><a href="#" class="button">Donate</a></p>
+  </div><br>
+  <div class="price">
+    <p class="header12">SurPrise</p>
+    <p id="list" class="grey">Rs 150 +</p>
+    <p id="list"></p>
+    <p id="list"></p>
+    <p id="list"></p>
+    <p id="list"></p><br>
+    <p  align="center" class="grey"><a href="#" class="button">Donate</a></p>
+  </div>
+</div>
+</div>
+			
+		<!--sidebar social icon fixed to the right-->
+			<div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="right:0px; top:200px;">
+				<a class="a2a_button_facebook"></a>
+				<a class="a2a_button_twitter"></a>
+				<a class="a2a_button_google_plus"></a>
+				<a class="a2a_button_pinterest"></a>
+				<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+			</div>
+
+       	
+			<!--specials--><br><br><br>
+			<div class="contain">	<h3>timings</h3>
+									<p>10:30 Am - 10:45 Am Activity</p>
+									
+									<p>11:00 Am - 12:00 PM Visit Hour</p>
+									<p>12:00 Pm - 01:00 Pm Feeding</p>
+									<h3> details</h3>
+									<p><a href="about.html">About Us</a></p>
+									<p><a href="#">Privacy Policy</a></p>
+									<p><a href="#">Terms & Conditions</a></p>
+									<p><a href="sitemap.html">SiteMap</a></p>
+									<h3>contact</h3>
+								<address>
+									<p>Glasgow,Le 99 Pr 45.</p>
+									<p>Telephone : +1 800 603 6035</p>
+									<p>FAX : +1 800 889 9898</p>
+									<p>Email : <a href="mailto:example@mail.com">example@mail.com</a></p>
+								</address>
+							<h3>social</h3>
+								
+									<p><a href="#">facebook</a></p>
+									<p><a href="#">twitter</a></p>
+									<p><a href="#">google+</a></p>
+									
+								
+								
+								
+							
+			</div>
+	
+			<div class="footer-section">
+				<div class="container">
+					<div class="footer-top">
+						<p>All Rights reserved.PETS</a></p>
+					</div>
+				</div>
+			</div>
+
+</body>
+</html>

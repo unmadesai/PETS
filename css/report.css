@@ -1,0 +1,273 @@
+
+@import url(http://fonts.googleapis.com/css?family=Laila:400,700);
+
+#wrapper {
+  font-family: Arial, Tahoma, sans-serif;
+  background: #fff;
+  font-size: 62.5%;
+  line-height: 1;
+  padding-top: 40px;
+}
+
+br { display: block; line-height: 1.6em; } 
+
+.pat{
+	text-align:center;
+	color:#002233;
+  font-family: 'Julius Sans One';
+	font-size:35px;
+  font-weight: 600;
+	
+}
+input, textarea { 
+  -webkit-font-smoothing: antialiased;
+  outline: none; 
+}
+
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+
+#wrapper > h1 {
+  display: block;
+  font-size: 3.1em;
+  line-height: 1.45em;
+  font-family: 'Laila', serif;
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  text-shadow: 2px 1px 0 #fff;
+}
+
+
+/** form field **/
+
+form {
+  display: block;
+  margin: 30px;
+  overflow: hidden;
+  background: #fff;
+  border: 20px solid #e4e4e4;
+  border-radius: 5px;
+  font-size: 0;
+}
+
+form > div > label {
+  display: block;
+  padding: 20px 20px 10px;
+  vertical-align: top;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+form > div.switch > label {
+  padding: 16px 20px 13px;
+}
+
+.col-submit input[type="submit"]
+{
+  font-family: 'Satisfy';
+  color: #002233;
+  background-color: #cec2c2;
+  font-size: 25px;
+  padding: 5px;
+  border:solid 2px;
+  border-color: #002233;
+
+}
+
+.col-submit input[type="submit"]:hover {
+    background-color: #002233;
+    transition: 0.5s all ;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    color: #cec2c2;
+    border-color: #cec2c2;
+    border: solid 2px;
+}
+
+.col-submit
+{
+  padding: 20px;
+  padding-right: 20px;
+}
+
+.col2, .col3, .col4 { 
+  border-bottom: 10px solid #e4e4e4;
+ text-align:center;
+}
+
+.col-2
+{
+  font-family: 'Marvel';
+  color: #ff5b81;
+  font-size: 30px;
+}
+.col-3
+{
+  font-family: 'Marvel';
+  color: #ff5b81;
+  font-size: 30px;
+}.col-4
+{
+  font-family: 'Marvel';
+  color: #ff5b81;
+  font-size: 30px;
+}
+
+form > div > .col4 {
+  height: 86px;
+}
+
+label > input {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 27px;
+  line-height: 27px;
+  margin: 5px -5px 0;
+  padding: 7px 5px 3px;
+  border: 20px;
+  outline: 20px;
+  color: #555;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: .6;
+  transition: all linear .3s;
+}
+.colsubmit {
+  text-align: center;
+  padding: 2px;
+}
+
+label > select {
+  display: block;
+  width: 100%;
+  padding: 0;
+  color: #555;
+  margin: 16px 0 6px;
+  font-weight: 500;
+  background: transparent;
+  border: 20px;
+  outline: none;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  opacity: .4;
+  transition: all linear .3s;
+}
+
+label > input:focus, label > select:focus {
+  opacity: 1;
+}
+
+
+
+/** button design based on http://codepen.io/guvootes/pen/eyDAb **/
+button {
+  width: 100%;
+  height: 35px;
+  border: 1px;
+  border-radius: 4px;
+  margin: 0 0 15px 0;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+  overflow: hidden;
+  outline: none;
+  
+
+}
+
+button.submitbtn {
+	
+  background-image: -moz-linear-gradient(#97c16b, #8ab959);
+  background-image: -webkit-linear-gradient(#97c16b, #8ab959);
+  background-image: linear-gradient(#97c16b, #8ab959);
+  border-bottom: 1px solid #ff0000;
+  cursor:pointer;
+  color: #fff;
+}
+button.submitbtn:hover {
+  background-image: -moz-linear-gradient(#8ab959, #7eaf4a);
+  background-image: -webkit-linear-gradient(#8ab959, #7eaf4a);
+  background-image: linear-gradient(#8ab959, #7eaf4a);
+}
+button.submitbtn:active {
+  height: 34px;
+  border-bottom: 0;
+  margin: 1px 0 0 0;
+  background-image: -moz-linear-gradient(#7eaf4a, #8ab959);
+  background-image: -webkit-linear-gradient(#7eaf4a, #8ab959);
+  background-image: linear-gradient(#7eaf4a, #8ab959);
+  -moz-box-shadow: inset 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+/** responsive design **/
+@media(min-width: 850px){
+  form > div { display: inline-block; }
+  .colsubmit { display: block; }
+  
+  .col2, .col3, .col4 { box-shadow: 1px 1px #e4e4e4; border: none; }
+  
+  .col2 { width: 50% }
+  .col3 { width: 33.3333333333% }
+  .col4 { width: 25% }
+  
+  .colsubmit button { width: 30%; margin: 0 auto;
+	 }
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #ff5b81; /* Black background color */
+    color: #faf3dd; /* White text color */
+    font-family: 'Satisfy';
+    font-size: 25px;
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 50px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}

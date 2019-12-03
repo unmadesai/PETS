@@ -1,0 +1,62 @@
+body {
+				background-color: #a6b1e1;
+				
+			}
+			.pslide
+			{
+				color: #002233;
+				font-family: 'Julius Sans One';
+				font-size: 25px;
+				padding-top: 20px;
+				padding-left: 30px;
+				padding-right: 30px;
+				text-align: center;
+			}
+
+			.name
+			{
+				font-family: 'Julius Sans One';
+				color: #002233;
+				font-size: 20px;
+			}
+
+			.image
+			{
+				height: 100px;
+				width: 100px;
+				border-radius: 50px;
+			}
+			.profile
+			{
+   				 height: 300px;
+   				 width: 300px;
+   				 background-color: #d3d3d3;
+   				 border: 2px solid black;
+   				 margin-top: 50px;
+   				 margin-left: 20px;
+			}
+			
+			#carousel {
+				margin-top: 0px;
+				z-index: -99;
+			}
+			#carousel div {
+				text-align: center;
+				width: 300px;
+				height: 300px;
+				float: left;
+				position: relative;
+				z-index: -99;
+			}
+			
+			.desc
+			{
+				font-family: 'Handlee';
+				font-size: 15px;
+			}
+
+			.contain
+			{
+				z-index: 100;
+			}
+			
